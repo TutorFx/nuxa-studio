@@ -6,6 +6,10 @@
       "dependsOn": ["^build"],
       "outputs": [".nuxt/**", ".output/**", "dist/**"]
     },
+    "build#lp": {
+      "dependsOn": ["^build"],
+      "outputs": [".nuxt/**", ".output/**", "dist/**"]
+    },
     "lint": {},
     "dev": {
       "cache": false,
