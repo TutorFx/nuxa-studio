@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   nitro: {
+    preset: 'vercel',
     esbuild: {
       options: {
         target: 'esnext',

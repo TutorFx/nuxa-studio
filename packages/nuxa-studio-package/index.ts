@@ -6,7 +6,7 @@ export default defineNuxtModule({
     nuxt.hook("components:dirs", (dirs) => {
       dirs.push({
         path: join(__dirname, "lib/components"),
-        prefix: "nx3",
+        prefix: "nuxa",
       });
     });
 

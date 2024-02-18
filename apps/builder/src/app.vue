@@ -1,5 +1,5 @@
 <template>
   <div>
-    <btn>teste 2</btn>
+    <nuxa-btn>teste 2</nuxa-btn>
   </div>
 </template>
