@@ -9,7 +9,9 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "dev:lp": "turbo build --filter=lp",
-    "dev:nuxt": "turbo build --filter=builder"
+    "dev:builder": "turbo build --filter=builder",
+    "build:lp": "turbo run build --filter=lp",
+    "build:builder": "turbo run build --filter=builder"
   },
   "keywords": [],
   "author": "",
