@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   srcDir: 'src/',
   modules: [
-    '@nuxtjs/eslint-module',
     'nuxa-studio-package',
-    'nuxt-module-eslint-config',
+    '@nuxtjs/eslint-module',
+    'nuxt-module-eslint-config'
   ],
   devtools: { enabled: true },
   nitro: {

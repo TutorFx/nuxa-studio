@@ -2,15 +2,16 @@
   "name": "nuxa-studio",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "dev:lp": "turbo build --filter=lp",
+    "dev:lp": "turbo dev --filter=lp",
     "dev:builder": "turbo build --filter=builder",
-    "build:lp": "turbo run build --filter=lp",
+    "build:lp": "turbo run dev --filter=lp",
     "build:builder": "turbo run build --filter=builder"
   },
   "keywords": [],
